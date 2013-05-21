@@ -1,0 +1,54 @@
+unit Pass;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TPassCra = class(TForm)
+    Label1: TLabel;
+    Button1: TButton;
+    Edit1: TEdit;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  PassCra: TPassCra;
+
+implementation
+
+{$R *.dfm}
+
+procedure TPassCra.Button1Click(Sender: TObject);
+type Tnum = array[1..9] of integer;
+
+var
+num:Tnum;
+i:integer;
+p:integer;
+text:string;
+begin
+text:='';
+p:=0;
+randomize;
+for p:=1 to 10 do
+begin
+i:=random(9);
+Edit1.Text:=IntTostr(num[i])+text;
+end;
+
+
+
+
+
+
+
+end;
+
+end.
