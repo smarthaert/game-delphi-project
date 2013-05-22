@@ -1,6 +1,6 @@
-object Form1: TForm1
-  Left = 195
-  Top = 128
+object BD_Generator: TBD_Generator
+  Left = 185
+  Top = 130
   Width = 928
   Height = 480
   Caption = 'BD_Generator'

@@ -1,0 +1,35 @@
+unit DataModule;
+
+interface
+
+uses
+  SysUtils, Classes, DB, DBTables;
+
+type
+  TDM = class(TDataModule)
+    TProfile: TTable;
+    TFileBank: TTable;
+    Hardw: TTable;
+    TMission: TTable;
+    TServer: TTable;
+    TSoft: TTable;
+    SProfile: TDataSource;
+    SFileBank: TDataSource;
+    SHardw: TDataSource;
+    SMission: TDataSource;
+    Sserver: TDataSource;
+    Ssoft: TDataSource;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DM: TDM;
+
+implementation
+
+{$R *.dfm}
+
+end.

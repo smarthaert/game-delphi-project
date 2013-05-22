@@ -34,6 +34,7 @@ uses Pass;
 
 procedure TMain_Win.Button5Click(Sender: TObject);
 begin
+//Запуск взлома паролей(тестовый)
 passcra.ShowModal;
 end;
 

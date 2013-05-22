@@ -7,7 +7,7 @@ uses
   Dialogs, StdCtrls;
 
 type
-  TForm1 = class(TForm)
+  TBD_Generator = class(TForm)
     GroupBox1: TGroupBox;
     Button1: TButton;
     Memo1: TMemo;
@@ -30,7 +30,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  BD_Generator: TBD_Generator;
 
 implementation
 
