@@ -12,6 +12,7 @@ object PassCra: TPassCra
   Font.Style = []
   OldCreateOrder = False
   OnActivate = FormActivate
+  OnClose = FormClose
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
@@ -24,7 +25,7 @@ object PassCra: TPassCra
   object Label2: TLabel
     Left = 24
     Top = 64
-    Width = 121
+    Width = 32
     Height = 13
     Caption = 'Label2'
   end
@@ -56,6 +57,7 @@ object PassCra: TPassCra
     OnClick = Button1Click
   end
   object Timer2: TTimer
+    Enabled = False
     Interval = 50
     OnTimer = Timer2Timer
     Left = 200

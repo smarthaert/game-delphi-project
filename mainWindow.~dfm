@@ -69,4 +69,13 @@ object Main_Win: TMain_Win
       TabOrder = 0
     end
   end
+  object Button5: TButton
+    Left = 464
+    Top = 168
+    Width = 75
+    Height = 25
+    Caption = 'Button5'
+    TabOrder = 5
+    OnClick = Button5Click
+  end
 end

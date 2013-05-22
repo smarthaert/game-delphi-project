@@ -1,3 +1,5 @@
+//Заполняет бд случайными данными для тестирования
+
 unit BD_Data_Generator;
 
 interface

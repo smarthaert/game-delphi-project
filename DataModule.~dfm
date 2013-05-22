@@ -1,0 +1,73 @@
+object DM: TDM
+  OldCreateOrder = False
+  Left = 192
+  Top = 124
+  Height = 150
+  Width = 323
+  object TProfile: TTable
+    DatabaseName = '.\Data\'
+    TableName = 'Profile.db'
+    Left = 8
+    Top = 8
+  end
+  object TFileBank: TTable
+    DatabaseName = '.\Data\'
+    TableName = 'FileBank.db'
+    Left = 56
+    Top = 8
+  end
+  object Hardw: TTable
+    DatabaseName = '.\Data\'
+    TableName = 'Hardw.db'
+    Left = 104
+    Top = 8
+  end
+  object TMission: TTable
+    DatabaseName = '.\Data\'
+    TableName = 'mission.db'
+    Left = 152
+    Top = 8
+  end
+  object TServer: TTable
+    DatabaseName = '.\Data\'
+    TableName = 'ServerList.db'
+    Left = 208
+    Top = 8
+  end
+  object TSoft: TTable
+    DatabaseName = '.\Data\'
+    TableName = 'Soft.db'
+    Left = 248
+    Top = 8
+  end
+  object SProfile: TDataSource
+    DataSet = TProfile
+    Left = 8
+    Top = 56
+  end
+  object SFileBank: TDataSource
+    DataSet = TFileBank
+    Left = 56
+    Top = 56
+  end
+  object SHardw: TDataSource
+    DataSet = Hardw
+    Left = 104
+    Top = 56
+  end
+  object SMission: TDataSource
+    DataSet = TMission
+    Left = 152
+    Top = 56
+  end
+  object Sserver: TDataSource
+    DataSet = TServer
+    Left = 208
+    Top = 56
+  end
+  object Ssoft: TDataSource
+    DataSet = TSoft
+    Left = 248
+    Top = 56
+  end
+end

@@ -1,0 +1,17 @@
+unit InitBD;
+
+interface
+
+uses DataModule;
+
+procedure InitBD(Sender: TObject);
+
+implementation
+
+procedure InitBD(Sender: TObject);
+begin
+//открываем бд
+
+end;
+
+end.
